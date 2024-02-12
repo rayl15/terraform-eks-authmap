@@ -14,13 +14,13 @@ module "eks" {
 }
 ```
 
-Inputs
+### Inputs
 eks_cluster_name: The name of the EKS cluster.
 auth_map_group: The IAM group for authentication mapping.
 aws_iam_role_arn: The ARN of the IAM role.
 aws_iam_role_name: The name of the IAM role.
 
-Outputs
+### Outputs
 kubernetes_provider_host: The host of the Kubernetes provider.
 kubernetes_provider_cluster_ca_certificate: The cluster CA certificate of the Kubernetes provider.
 kubernetes_provider_token: The token of the Kubernetes provider.
