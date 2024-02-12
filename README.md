@@ -12,6 +12,7 @@ module "eks" {
   aws_iam_role_arn = "arn:aws:iam::123456789012:role/my-role"
   aws_iam_role_name= "my-role"
 }
+```
 
 Inputs
 eks_cluster_name: The name of the EKS cluster.
