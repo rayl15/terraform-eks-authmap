@@ -1,6 +1,6 @@
-# terraform-eks-authmap#
+# terraform-eks-authmap
 
-This Terraform module provisions an EKS cluster and updates the `aws-auth` ConfigMap for authentication mapping.
+This Terraform module updates the `aws-auth` ConfigMap for authentication role mapping.
 
 ## Usage
 
