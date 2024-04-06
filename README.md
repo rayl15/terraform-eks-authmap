@@ -39,17 +39,6 @@ No modules.
 | <a name="input_add_extra_iam_users"></a> [add\_extra\_iam\_users](#input\_add\_extra\_iam\_users) | n/a | <pre>list(object({<br>    groups    = list(string)<br>    user_arn  = string<br>    user_name = string<br>  }))</pre> | `[]` | no |
 | <a name="input_eks_cluster_name"></a> [eks\_cluster\_name](#input\_eks\_cluster\_name) | The name of the EKS cluster | `string` | `""` | no |
 
-## Usage
-
-```hcl
-module "eks" {
-  source           = "git::https://github.com/rayl15/terraform-eks-authmap.git"
-  eks_cluster_name = "my-eks-cluster"
-  auth_map_group   = "system:masters"
-  aws_iam_role_arn = "arn:aws:iam::123456789012:role/my-role"
-  aws_iam_role_name= "my-role"
-}
-```
 
 ## Outputs
 
