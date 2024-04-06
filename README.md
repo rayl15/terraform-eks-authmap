@@ -1,5 +1,5 @@
 <!-- BEGIN_TF_DOCS -->
-## Terraform EKS Auth-MAP 
+## Terraform EKS auth-map
 
 This Terraform module updates the `aws-auth` ConfigMap for authentication role mapping.
 
