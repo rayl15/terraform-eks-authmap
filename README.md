@@ -1,7 +1,8 @@
 <!-- BEGIN_TF_DOCS -->
 ## Terraform EKS Auth-Map
 
-This Terraform module updates the `aws-auth` ConfigMap for authentication role mapping.
+This Terraform module provides an automated solution for managing authentication configurations within an Amazon EKS (Elastic Kubernetes Service) cluster. It streamlines the process of updating the aws-auth ConfigMap, a crucial component in controlling access to the Kubernetes cluster.
+
 
 ## Requirements
 
